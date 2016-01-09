@@ -16,6 +16,11 @@
 		92CE51BF1C40CE2400BFE611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CE51BD1C40CE2400BFE611 /* LaunchScreen.storyboard */; };
 		92CE51CA1C40CE2400BFE611 /* CandyMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE51C91C40CE2400BFE611 /* CandyMazeTests.swift */; };
 		92CE51D51C40CE2400BFE611 /* CandyMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE51D41C40CE2400BFE611 /* CandyMazeUITests.swift */; };
+		92CE51E31C40D1A900BFE611 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE51E21C40D1A900BFE611 /* TitleScene.swift */; };
+		92CE51E51C40D39400BFE611 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CE51E41C40D39400BFE611 /* GameKit.framework */; };
+		92CE51E71C40D3A100BFE611 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CE51E61C40D3A100BFE611 /* CoreMotion.framework */; };
+		92CE51EA1C40D4F900BFE611 /* se_maoudamashii_se_sound09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CE51E81C40D4F900BFE611 /* se_maoudamashii_se_sound09.mp3 */; };
+		92CE51EB1C40D4F900BFE611 /* se_maoudamashii_se_sound11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CE51E91C40D4F900BFE611 /* se_maoudamashii_se_sound11.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		92CE51D01C40CE2400BFE611 /* CandyMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CE51D41C40CE2400BFE611 /* CandyMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMazeUITests.swift; sourceTree = "<group>"; };
 		92CE51D61C40CE2400BFE611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CE51E21C40D1A900BFE611 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		92CE51E41C40D39400BFE611 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		92CE51E61C40D3A100BFE611 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		92CE51E81C40D4F900BFE611 /* se_maoudamashii_se_sound09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = se_maoudamashii_se_sound09.mp3; path = "../../sandbox-game03-master/sandbox-game03/se_maoudamashii_se_sound09.mp3"; sourceTree = "<group>"; };
+		92CE51E91C40D4F900BFE611 /* se_maoudamashii_se_sound11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = se_maoudamashii_se_sound11.mp3; path = "../../sandbox-game03-master/sandbox-game03/se_maoudamashii_se_sound11.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CE51E71C40D3A100BFE611 /* CoreMotion.framework in Frameworks */,
+				92CE51E51C40D39400BFE611 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,8 @@
 		92CE51A41C40CE2400BFE611 = {
 			isa = PBXGroup;
 			children = (
+				92CE51E41C40D39400BFE611 /* GameKit.framework */,
+				92CE51E61C40D3A100BFE611 /* CoreMotion.framework */,
 				92CE51AF1C40CE2400BFE611 /* CandyMaze */,
 				92CE51C81C40CE2400BFE611 /* CandyMazeTests */,
 				92CE51D31C40CE2400BFE611 /* CandyMazeUITests */,
@@ -105,10 +119,13 @@
 				92CE51B21C40CE2400BFE611 /* GameScene.sks */,
 				92CE51B41C40CE2400BFE611 /* GameScene.swift */,
 				92CE51B61C40CE2400BFE611 /* GameViewController.swift */,
+				92CE51E21C40D1A900BFE611 /* TitleScene.swift */,
 				92CE51B81C40CE2400BFE611 /* Main.storyboard */,
 				92CE51BB1C40CE2400BFE611 /* Assets.xcassets */,
 				92CE51BD1C40CE2400BFE611 /* LaunchScreen.storyboard */,
 				92CE51C01C40CE2400BFE611 /* Info.plist */,
+				92CE51E81C40D4F900BFE611 /* se_maoudamashii_se_sound09.mp3 */,
+				92CE51E91C40D4F900BFE611 /* se_maoudamashii_se_sound11.mp3 */,
 			);
 			path = CandyMaze;
 			sourceTree = "<group>";
@@ -199,6 +216,7 @@
 				TargetAttributes = {
 					92CE51AC1C40CE2400BFE611 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QRSEDBU25M;
 					};
 					92CE51C41C40CE2400BFE611 = {
 						CreatedOnToolsVersion = 7.2;
@@ -237,7 +255,9 @@
 			files = (
 				92CE51B31C40CE2400BFE611 /* GameScene.sks in Resources */,
 				92CE51BF1C40CE2400BFE611 /* LaunchScreen.storyboard in Resources */,
+				92CE51EA1C40D4F900BFE611 /* se_maoudamashii_se_sound09.mp3 in Resources */,
 				92CE51BC1C40CE2400BFE611 /* Assets.xcassets in Resources */,
+				92CE51EB1C40D4F900BFE611 /* se_maoudamashii_se_sound11.mp3 in Resources */,
 				92CE51BA1C40CE2400BFE611 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +286,7 @@
 				92CE51B51C40CE2400BFE611 /* GameScene.swift in Sources */,
 				92CE51B71C40CE2400BFE611 /* GameViewController.swift in Sources */,
 				92CE51B11C40CE2400BFE611 /* AppDelegate.swift in Sources */,
+				92CE51E31C40D1A900BFE611 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CandyMaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihha.CandyMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CandyMaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihha.CandyMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
